@@ -1,0 +1,29 @@
+
+
+body{
+    font-size: 18pt;
+}
+#text-box{
+    display:inline-block;
+
+}
+#list{
+    display:block;
+    padding:0px;
+}
+h1 {
+    font-size: 48pt;
+    text-align: center;
+}
+#text-box{
+    padding:20px;
+}
+
+#chart{
+    display:grid;
+    grid-gap: 20px;
+    width:500px;
+    margin:0px;
+    padding:0px;
+    grid-template-columns: 100px 1fr;
+}
