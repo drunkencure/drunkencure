@@ -25,5 +25,5 @@ h1 {
     width:500px;
     margin:0px;
     padding:0px;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 100px 1fr 1fr;
 }

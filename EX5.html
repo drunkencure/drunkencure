@@ -1,30 +1,54 @@
 <!doctype html>
 <meta charset="utf-8">
-<head>
-<title>
 
-</title>
+<head>
+    <title>
+
+    </title>
 
 </head>
+
 <body>
-<h1>Function</h1>
-<h2>
-    Basics
-</h2>
-<ul>
-    <script>
-    function two(){
-    document.write('<li>2-1</li>');
-    document.write('<li>2-2</li>');
-    }
-    document.write('<li>1</li>');
-    two();
-    document.write('<li>2-1</li>');
-    document.write('<li>2-2</li>');
-    two();
-    document.write('<li>3</li>');
-    </script>
-</ul>
-<h2>Parameter & Argument</h2>
-<h2>Return</h2>
+    <h1>Function</h1>
+    <h2>
+        Basics
+    </h2>
+    <ul>
+        <script>
+            function two() {
+                document.write('<li>2-1</li>');
+                document.write('<li>2-2</li>');
+            }
+
+            document.write('<li>1</li>');
+            two();
+            document.write('<li>2-1</li>');
+            document.write('<li>2-2</li>');
+            two();
+            document.write('<li>3</li>');
+        </script>
+    </ul>
+    <h2>Parameter & Argument</h2>
+        <script>
+        function one(){
+        document.write(1+1+'<br>');
+        }
+        one();
+        function sum(left, right){
+            document.write(left+right+'<br>')
+        }
+        sum(2,3);
+        sum(15,17);
+        </script>
+    <h2>Return</h2>
+        <script>
+        function sum2(left, right){
+            return left+right;
+        }
+        document.write(sum2(15,17)+'<br>');
+        document.write('<div style="color:red;">'+sum2(2,3)+'</div>');
+        document.write('<div style="font-size:3rem;">'+sum2(2,3)+'</div>');
+       
+        </script>
+
 </body>
