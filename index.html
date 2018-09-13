@@ -6,37 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>WEB</title>
     <meta charset="utf-8">
-    <script>
-        function setColor(color) {
-            var alist = document.querySelectorAll('a');
-            var i = 0;
-            while (i < alist.length) {
-                alist[i].style.color = color;
-                i = i + 1;
-            }
-        }
-        function bodycolor(color) {
-            document.querySelector('body').style.color = color;
-        }
-        function bodybgcolor(color) {
-            document.querySelector('body').style.backgroundColor = color;
-
-        }
-        function nightDayhandler(self) {
-            var target = document.querySelector('body');
-            if (self.value === 'night') {
-                bodybgcolor('black')
-                bodycolor('white')
-                setColor('powderblue');
-                self.value = 'day';
-            } else {
-                bodybgcolor('whiite')
-                bodycolor('black');
-                self.value = 'night';
-                setColor('blue');
-            }
-        }
-    </script>
+    <script src="colors.js"></script>
 </head>
 
 <br>
@@ -45,7 +15,7 @@
 
     <h1><a href="index.html">WEB</h1></a>
     <ol>
-        <input type="button" style="width:50px; height: 60px;" value="night" onclick="nightDayhandler(this);">
+        <input type="button" style="width:50px; height: 30px;" value="night" onclick="nightDayhandler(this);">
         <li><a href="1.html">HTML</li></a>
         <li><a href="2.html">CSS</li></a>
         <li><a href="3.html">JavaScript</li></a>
