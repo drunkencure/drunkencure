@@ -1,3 +1,7 @@
+h1 {
+    text-align: center;
+}
+
 body,
 ul,
 li {
@@ -13,16 +17,22 @@ a {
 
 .menu-1>ul {
     display: inline-block;
-    background-color: red;
+    width: 100%;
+    background-color: #dfdfdf;
     border-radius: 3px;
 }
 
 .menu-1 {
+    position: flex;
     text-align: center;
+    margin: auto auto;
+    margin-top: 50px;
 }
 
 .menu-1>ul>li {
     display: inline-block;
+    width: 25%;
+    float: left;
 }
 
 .menu-1>ul>li>a {
@@ -32,9 +42,11 @@ a {
 }
 
 .menu-1 li:hover>a {
-    display: blcok;
-    background-color: #aca1a1f3;
+    position: relative;
+    display: block;
+    background-color: black;
     color: yellow;
+    padding: 10px;
 }
 
 .menu-1 li {
@@ -49,17 +61,17 @@ a {
 
 .menu-1 li:hover>ul {
     display: block;
-    background-color: red;
+    background-color: #dfdfdf;
     border-radius: 3px;
 }
 
 .menu-1>ul>li>ul>li {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    width: 100%;
 }
 
 .menu-1>ul>li>ul>li>a {
-    display: inline-block;
-    padding: 8px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
