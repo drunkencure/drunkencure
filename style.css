@@ -34,3 +34,13 @@ ol {
         border-right: none;
     }
 }
+
+input {
+    margin: 15px;
+    -webkit-appearance: button;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    width: 300px;
+    height: 200px;
+}

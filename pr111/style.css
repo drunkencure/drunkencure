@@ -1,0 +1,20 @@
+h1,
+h3 {
+    margin: 3px;
+}
+
+.pink {
+    color: hotpink;
+}
+
+body {
+    background-color: #1a6310;
+}
+
+.text {
+    display: block;
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}

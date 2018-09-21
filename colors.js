@@ -1,5 +1,5 @@
 var Links = {
-    setColor: function (color) {
+    setColor: function(color) {
         var alist = document.querySelectorAll('a');
         var i = 0;
         while (i < alist.length) {
@@ -10,14 +10,15 @@ var Links = {
     }
 }
 var Body = {
-    bodycolor: function (color) {
+    bodycolor: function(color) {
         document.querySelector('body').style.color = color;
     },
-    bodybgcolor: function (color) {
+    bodybgcolor: function(color) {
         document.querySelector('body').style.backgroundColor = color;
     }
 
 }
+
 function nightDayhandler(self) {
     var target = document.querySelector('body');
     if (self.value === 'night') {
