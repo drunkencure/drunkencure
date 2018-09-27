@@ -1,3 +1,13 @@
+img {
+    display: inline-block;
+    block-size: 70%;
+    position: absolute;
+    top: 400px;
+    left: auto;
+    opacity: 40%;
+    z-index: 1;
+}
+
 h1 {
     text-align: center;
 }
@@ -16,6 +26,7 @@ a {
 }
 
 .menu-1>ul {
+    z-index: 2;
     display: inline-block;
     width: 100%;
     background-color: #dfdfdf;
@@ -31,8 +42,8 @@ a {
 
 .menu-1>ul>li {
     display: inline-block;
-    width: 25%;
-    float: left;
+    width: 200px;
+    float: center;
 }
 
 .menu-1>ul>li>a {
@@ -44,8 +55,8 @@ a {
 .menu-1 li:hover>a {
     position: relative;
     display: block;
-    background-color: black;
-    color: yellow;
+    background-color: red;
+    color: blue;
     padding: 10px;
 }
 
@@ -60,6 +71,7 @@ a {
 }
 
 .menu-1 li:hover>ul {
+    z-index: 2;
     display: block;
     background-color: #dfdfdf;
     border-radius: 3px;
