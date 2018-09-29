@@ -8,12 +8,21 @@
 </head>
 <body>
     <h1><a href="index.php">WEB</h1></a>
-    <ol>
-        <li><a href="index.php?id=HTML">HTML</li></a>
-        <li><a href="index.php?id=CSS">CSS</li></a>
-        <li><a href="index.php?id=JavaScripts">JavaScripts</li></a>
-        <li><a href="index.php?id=PHP">PHP</li></a>
-</ol>
+<ol>
+<?php
+$list = scandir('./data');
+$i = 0;
+while ($i < count($list)) {
+    if ($list[$i] != '.') {
+        if ($list[$i] != '..') {
+            echo "<li><a href=\"index.php?id=$list[$i]\">$list[$i]</li></a>\n";
+        }
+    }
+    $i = $i + 1;
+}
+
+?>
+    </ol>
 
 <h2>
 <?php
@@ -26,7 +35,7 @@ if (isset($_GET['id'])) {
 </h2>
 <?php
 if (isset($_GET['id'])) {
-    echo file_get_contents("data/".$_GET['id']);
+    echo file_get_contents("data/" . $_GET['id']);
 } else {
     echo "<h2>Hello, PHP</h2>";
 }
