@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+
+    <input type="button" value="만들기" onclick="makeButton()">
+    <script>
+        function makeButton() {
+            var jbBtn = document.createElement('button');
+            var jbBtnText = document.createTextNode('Click');
+            jbBtn.appendChild(jbBtnText);
+            document.body.appendChild(jbBtn);
+        }
+    </script>
+</body>
+
+</html>
