@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        tr {
+            background-color: #777777;
+        }
+        
+        td {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <th>
+            <tr>
+                <td>분류</td>
+                <td>날짜</td>
+                <td>금액</td>
+                <td>내역</td>
+                <td>영수증</td>
+            </tr>
+        </th>
+        <tbody class="sumtable">
+            <tr>
+                <td>지출</td>
+                <td>2019.10.3</td>
+                <td>100000</td>
+                <td>커피값</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>가지급</td>
+                <td>2019.10.3</td>
+                <td>100000</td>
+                <td>커피값</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>지출</td>
+                <td>2019.10.3</td>
+                <td>50000</td>
+                <td>커피값</td>
+                <td>없음</td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+
+    <script>
+        var target = document.querySelector('.sumtable');
+        var targetCell = target.getElementsByTagName('td');
+        var cellsum = targetCell(2, 7, 13);
+        document.write(cellsum);
+    </script>
+
+
+</body>
+
+</html>
