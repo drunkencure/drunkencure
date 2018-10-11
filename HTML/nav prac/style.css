@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-template-columns: 40% 1fr;
-    grid-template-rows: 10% 1fr 10%;
+    grid-template-rows: 100px 1fr 10%;
     grid-gap: 3px;
     height: 100%;
     grid-template-areas: "header header" "side main" "footer footer";
@@ -9,6 +9,7 @@
 
 .header {
     grid-area: header;
+    background-color: #ca8dc7;
 }
 
 .side {
@@ -49,10 +50,9 @@ a {
 }
 
 .menu-1 {
-    position: flex;
+    position: relative;
     text-align: center;
-    margin: auto auto;
-    margin-top: 50px;
+    margin: 0 auto;
 }
 
 .menu-1>ul>li {
