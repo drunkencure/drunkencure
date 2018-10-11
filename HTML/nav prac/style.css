@@ -23,16 +23,6 @@
     grid-area: footer;
 }
 
-img {
-    display: inline-block;
-    block-size: 70%;
-    position: absolute;
-    top: 400px;
-    left: auto;
-    opacity: 40%;
-    z-index: 1;
-}
-
 h1 {
     text-align: center;
 }
@@ -80,8 +70,8 @@ a {
 .menu-1 li:hover>a {
     position: relative;
     display: block;
-    background-color: red;
-    color: blue;
+    background-color: #777777;
+    color: white;
     padding: 10px;
 }
 
