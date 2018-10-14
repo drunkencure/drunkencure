@@ -1,13 +1,10 @@
 
 
-<<<<<<< HEAD
 branch test1
 
 test1
 
 test2
-=======
 hot fix branch test
 
 
->>>>>>> master
