@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Number guessing game</h1>
+
+    <p> We have selected a random number between 1 and 100. See if you can guess it in 10 turns or less. We'll tell you if your guess was too high or too low.</p>
+
+    <form>
+        <lable for="guessField"> Enter a guess:</lable><input type="text" id="guessField"><input type="submit" value="submit Guess"> Previous guesses:
+    </form>
+
+    Congratulations! You got it right! Start new game
+
+
+
+</body>
+
+<script>
+    var randomNumber = Math.floor(Math.random() * 100) + 1;
+
+    var guesses = document.querySelector('.guesses');
+    var lastResult = document.querySelector('.lastResult');
+    var lowOrHi = document.querySelector('.lowOrHi');
+
+    var guessSubmit = document.querySelector('.guessSubmit');
+    var guessField = document.querySelector('.guessField');
+
+    var guessCount = 1;
+    var resetButton;
+</script>
+
+</html>
