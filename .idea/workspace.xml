@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4c22d4-1d9c-4033-943e-2e3f8acba49e" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
@@ -9,6 +10,8 @@
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work1.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/사수넷 소식지 22호.html" afterDir="false" />
+=======
+>>>>>>> 0492f2dafc3fd7cf32ff458c639cfb3ad431e79a
       <change beforePath="$PROJECT_DIR$/HTML/pt222.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/pt222.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,21 +24,31 @@
     <session id="-105277832">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="6" />
+=======
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+>>>>>>> 0492f2dafc3fd7cf32ff458c639cfb3ad431e79a
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="html" value="3" />
+=======
+          <entry key="html" value="1" />
+>>>>>>> 0492f2dafc3fd7cf32ff458c639cfb3ad431e79a
           <entry key="php" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="HTML" value="3" />
           <entry key="PHP" value="1" />
         </counts>
@@ -52,6 +65,16 @@
           <entry key="HTML" value="134" />
         </counts>
       </usages-collector>
+=======
+          <entry key="HTML" value="1" />
+          <entry key="PHP" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.php.composer.actions" />
+      <usages-collector id="statistics.file.types.edit" />
+>>>>>>> 0492f2dafc3fd7cf32ff458c639cfb3ad431e79a
       <usages-collector id="statistics.php.new.test" />
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.php.composer.command.options" />
@@ -60,6 +83,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -77,10 +101,24 @@
     <replaceStrings>
       <replace>&lt;p style=&quot;FONT-SIZE: 18px; font-weight: normal; TEXT-ALIGN: justify; PADDING: 0; MARGIN: 0 0 1em 0;&quot;&gt;</replace>
     </replaceStrings>
+=======
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> 0492f2dafc3fd7cf32ff458c639cfb3ad431e79a
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -88,15 +126,20 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> 0492f2dafc3fd7cf32ff458c639cfb3ad431e79a
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="PhpServers">
     <servers />
   </component>
+=======
+>>>>>>> 0492f2dafc3fd7cf32ff458c639cfb3ad431e79a
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
@@ -106,21 +149,43 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
+<<<<<<< HEAD
     <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+=======
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+>>>>>>> 0492f2dafc3fd7cf32ff458c639cfb3ad431e79a
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
+<<<<<<< HEAD
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+=======
+>>>>>>> 0492f2dafc3fd7cf32ff458c639cfb3ad431e79a
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -153,16 +218,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540530994308</updated>
+<<<<<<< HEAD
       <workItem from="1540530995526" duration="1242000" />
       <workItem from="1540534159963" duration="22000" />
       <workItem from="1540563263634" duration="75000" />
       <workItem from="1541147989120" duration="1118000" />
       <workItem from="1541154353474" duration="2133000" />
       <workItem from="1541159428305" duration="1000" />
+=======
+      <workItem from="1540530995526" duration="750000" />
+>>>>>>> 0492f2dafc3fd7cf32ff458c639cfb3ad431e79a
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="4591000" />
   </component>
   <component name="ToolWindowManager">
@@ -171,6 +241,22 @@
       <window_info content_ui="combo" id="Project" order="0" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+=======
+    <option name="totallyTimeSpent" value="750000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+>>>>>>> 0492f2dafc3fd7cf32ff458c639cfb3ad431e79a
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -178,6 +264,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
@@ -187,6 +274,12 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+=======
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+>>>>>>> 0492f2dafc3fd7cf32ff458c639cfb3ad431e79a
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +299,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/work1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -280,5 +374,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 0492f2dafc3fd7cf32ff458c639cfb3ad431e79a
   </component>
 </project>
